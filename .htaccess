@@ -1,0 +1,27 @@
+Options -Indexes
+
+RewriteEngine on
+RewriteRule ^login$  login.php [L]
+RewriteRule ^upload$  upload.php [L]
+RewriteRule ^activar$  activar.php [L]
+RewriteRule ^logout$  logout.php [L]
+RewriteRule ^imagenes$  index.php?view=true [L]
+RewriteRule ^myimages$  user.php?section=imagenes [L]
+RewriteRule ^myfavs$  user.php?section=favoritos [L]
+RewriteRule ^mygallerys$  user.php?section=galerias [L]
+
+#imagenes
+RewriteRule ^imagenes/([0-9]+)$ index.php?img=$1 [L]
+
+#registro
+RewriteRule ^registro$ index.php?registro=true [L]
+
+#activar cuenta
+RewriteRule ^activar/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)$ activar.php?id=$1&ip=$2 [L]
+
+#Rutas para Ajax
+#RewriteRule ^agregar-favorito.php$  %{HTTP_HOST}/ajax/agregar-favorito.php [L]
+
+#Ruta para la paginacion
+#RewriteRule ^#pagina$/([0-9]+)  index.php?pagina=hola [L]
+#RewriteRule ^/#(.*)$ "/?$1"

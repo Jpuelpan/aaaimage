@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family:helvetica,sans-serif;
+	font-size:12px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.buttonok{
+	margin-top:5px;
+	background-image:-webkit-linear-gradient(top , #F0F0F0 0% , #CCC 100%);
+	background-image:-moz-linear-gradient(top , #F0F0F0 0% , #CCC 100%);
+	background-image:-o-linear-gradient(top , #F0F0F0 0% , #CCC 100%);
+	border:1px #9c9c9c solid;
+	padding:7px 10px 7px 10px;
+	cursor:pointer;
+	font-weight:bold;
+	color:#000;
+	outline:none;
+	box-shadow:rgba(0,0,0,.1) 0px 1px 0px;
+	-webkit-box-shadow:rgba(0,0,0,.1) 0px 1px 0px;
+	-moz-box-shadow:rgba(0,0,0,.1) 0px 1px 0px;
+	-o-box-shadow:rgba(0,0,0,.1) 0px 1px 0px;
+}
+
+h1{
+	font-size:24px;
+	font-weight:bold;
+	color:#333;
+	text-align:center;
+}
+
+.clear{
+	clear:both;
+}
+
+.left{
+	float:left;
+}
+
+#container{
+	position:relative;
+	display:block;
+	width:980px;
+	margin:0 auto;
+}
+
+#logo{
+	position:relative;
+	display:block;
+	width:342px;
+	height:60px;
+	margin:0 auto;
+	margin-top:5px;
+}
+
+#central-box{
+	position:relative;
+	display:block;
+	width:600px;
+	border:1px #9c9c9c solid;
+	margin:0 auto;
+	margin-top:100px;
+	left:19%;
+	/* top:100px; */
+	box-shadow:#D3D3D3 0px 1px 0px;
+	-webkit-box-shadow:#D3D3D3 0px 1px 0px;
+	-moz-box-shadow:#D3D3D3 0px 1px 0px;
+	-o-box-shadow:#D3D3D3 0px 1px 0px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+}
+
+#central-box table{
+	margin:0 auto;
+	margin-top:30px;
+}
+
+#central-box table tr td{
+	padding-bottom:10px;
+}
+
+#error{
+	width:500px;
+	height:40px;
+	border:2px #9c9c9c solid;
+	margin:0 auto;
+	margin-top:10px;
+	background:#FBFF9B;
+}
+
+#error p{
+	color:#D71818;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	padding:12px 0px 10px 0px;
+}
+
+#ok{
+	width:500px;
+	border:2px #9c9c9c solid;
+	margin:0 auto;
+	margin-top:10px;
+	background:#FBFF9B;
+	margin-bottom:20px;
+}
+
+#ok h1{
+	margin-top:10px;
+}
+
+#ok p{
+	padding:20px 0px 30px 0px;
+	text-align:center;
+	color:#004DFF;
+	font-weight:bold;
+	line-height:1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
